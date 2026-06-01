@@ -1,0 +1,206 @@
+/* Grundlegende Einstellungen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+
+.main-nav li {
+    margin: 0 15px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.main-nav a:hover, .main-nav a.active {
+    color: #8f5c97;
+}
+
+/*Header */
+.hero-header {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Pictures/titel_background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Hauptlayout-Container */
+.main-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 2 Teile für Quadrate, 1 Teil für Sidebar */
+    gap: 30px;
+}
+
+/* Quadrat-Raster */
+.grid-section {
+    width: 100%;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.square-card {
+    aspect-ratio: 1 / 1;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* overlay-Effekt bei quadraten */
+.square-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transition: background 0.3s;
+}
+
+.square-card span {
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 2;
+    text-align: center;
+    padding: 10px;
+}
+
+/* hover-Effekt d. Quadrate */
+.square-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+.square-card:hover::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*Sidebar Aside*/
+.sidebar {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    height: auto; /*nicht ganz sichers*/
+}
+
+
+/*unterseite design */
+
+.project-gallery {
+    width: 100%;
+}
+
+/*  boxen anordnen */
+.large-image-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.image-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Bild nutzt die linke seite komplet aus */
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+/* beschriftung unter bildern */
+.image-box .caption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+}
+
+
+.sidebar ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.sidebar li {
+    margin-bottom: 5px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #8f5c97;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.back-button:hover {
+    transform: translateX(-4px);
+}
+
+/* Footer (bei allen seiten gleich) */
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Seite-1" id="_PQKTVoZ2ucLpHCTGb1O">
+    <mxGraphModel dx="1577" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="760" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-2" value="titel des portfolios" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="110" width="760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-3" value="Projekt Morsecode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="300" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9E9E9;" parent="1" vertex="1">
+          <mxGeometry x="40" y="750" width="760" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Home&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="60" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-25" value="Projekt Javascript&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="300" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-26" value="Kurs Python zertifikat&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="450" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-27" value="Projekt Python&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="450" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-29" value="Baden Hacked + wirtschaftswoche&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;bestätigung&amp;nbsp;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="600" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-30" value="Projekt Portfolio?" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="600" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="40" width="710" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-49" value="Daten und informationen" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="300" width="280" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-52" value="text&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="180" width="210" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="RcYtYpqbWDBnShAdO7ip-55" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Projekt Beispiel&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="80" width="710" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jm11VCMQ7gDv7rKbIjzw-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Home&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="44" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jm11VCMQ7gDv7rKbIjzw-2" value="Picture" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="901.5" y="190" width="378.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jm11VCMQ7gDv7rKbIjzw-3" value="Picture" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="901.5" y="380" width="378.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jm11VCMQ7gDv7rKbIjzw-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E9E9E9;" parent="1" vertex="1">
+          <mxGeometry x="880" y="560" width="710" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
