@@ -207,63 +207,54 @@ body {
 
 
 /*änderung für handy layout -> responsiv*/
-/*ka plan ob das funktioniert ; falls nd -> ab da lösche / ändere*/
 /*im main-container ebefalls en änderig -> ev rückgängig mache*/
 
-
-@media (max-width: 600px) {
-
-    /* Navigation */
-    .main-nav ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
     }
 
-    .main-nav li {
-        margin: 5px 0;
-    }
-
-    /* Header */
-    .hero-header {
-        height: 250px;
-        padding: 20px;
-    }
-
-    .header-content h1 {
-        font-size: 1.8rem;
-    }
-
-    /* Hauptlayout */
     .main-container {
-        display: block;
-        margin: 20px auto;
-        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+        gap: 20px;
     }
 
-    /* karteteilers */
     .card-grid {
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 15px;
+        width: 100%;
     }
 
     .square-card {
-        aspect-ratio: 1 / 1;
+        width: 100%;
+        height: auto;
     }
+/*
 
-    .square-card span {
-        font-size: 1rem;
-    }
+                            ╱|、
+                          (˚ˎ 。7      cat because CUTE 
+                           |、˜〵          
+                          じしˍ,)ノ
+    
+    */
 
-    /* Sidebar */
     .sidebar {
-        margin-top: 20px;
-        padding: 15px;
+        width: 100%;
+        order: 2;
     }
 
-    /* Bilder */
-    .image-box {
-        padding: 10px;
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-header img {
+        width: 100%;
+        height: auto;
     }
 
 }
